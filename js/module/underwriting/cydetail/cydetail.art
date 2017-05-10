@@ -1,0 +1,27 @@
+<div class="card-header">
+	<img src="{{imgbaseurl}}{{bigpicture}}">
+</div>
+<div class="card-content cy-detail">
+	<div class="card-content-inner">
+		<p class="cy-name">{{commodityname}}</p>
+		<p class="cy-points"><i>{{integration}}</i>积分</p>
+		<p class="cy-market">市场参考价：<i>{{price}}元</i></p>
+		兑换数量：
+		<div class="mui-numbox" data-numbox-step='1' data-numbox-min='0' data-numbox-max='{{sum}}'>
+
+		   	<button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+		  		<input class="mui-numbox-input" type="number" />
+		  	<button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+		</div>
+	</div>
+	<div class="card-description">商品描述</div>
+	<div class="card-description-content">
+		<p>此商品只能用积分兑换</p>
+		<p>只能在指定的店消费</p>
+		<p>德玛西亚万岁</p>
+	</div>
+</div>
+<div class="card-footer">
+	<span class="price">单价：<strong>{{integration}}</strong>积分</span>
+	<a href="javascript:;" class="mui-btn btn-Sienna2 mui-btn-block exchangeBtn">我要兑换</a>
+</div>

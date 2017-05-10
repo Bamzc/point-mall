@@ -1,0 +1,13 @@
+<div class="card">
+	<div class="card-content">
+		<div class="card-content-inner">
+			<p class="cy-name">XX洗车券</p>
+			<p class="cy-date">有效期至<i>2017-10-13</i></p>
+		</div>
+	</div>
+</div>
+<ul class="mui-table-view exchange-code">
+	 {{each data}}
+        <li class="mui-table-view-cell" data-exchangeCode="{{$value.exchangecode}}">密码1：<i>{{$value.exchangecode}}</i><span class="exchan-state">已使用</span></li>
+    {{/each}}
+</ul>

@@ -1,0 +1,14 @@
+<div class="card-header">
+	<img src="{{imgbaseurl}}{{bigpicture}}">
+</div>
+<div class="card-content">
+	<div class="card-content-inner">
+		<p class="cy-name">{{commodityname}}</p>
+		<p class="cy-num">验证数量：<i>199</i>件</p>
+	<div class="card-description">商品描述</div>
+	<div class="card-description-content">
+		<p>此商品只能用积分兑换</p>
+		<p>只能在指定的店消费</p>
+		<p>德玛西亚万岁</p>
+	</div>
+</div>

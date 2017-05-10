@@ -1,0 +1,17 @@
+{
+  "a.js": "a-f416f3496a.js",
+  "bottom.js": "bottom-1b9ec1baf7.js",
+  "common.js": "common-59176fd6dd.js",
+  "confirmOrder.js": "confirmOrder-55af1f61d5.js",
+  "cydetail.js": "cydetail-acab19c27b.js",
+  "exchangeQrcode.js": "exchangeQrcode-3065b31d90.js",
+  "exchangeRecord.js": "exchangeRecord-0f1a6fc85a.js",
+  "exsuccess.js": "exsuccess-128041b4e9.js",
+  "index.js": "index-ad7c150c83.js",
+  "orderDetail.js": "orderDetail-f110c23942.js",
+  "pointsCommodity.js": "pointsCommodity-803a0a5cd0.js",
+  "pointsExchange.js": "pointsExchange-055118be8d.js",
+  "require-config.js": "require-config-9a5f0e9f1c.js",
+  "router-ug.js": "router-ug-9180ae6086.js",
+  "util.js": "util-a6e06d821c.js"
+}

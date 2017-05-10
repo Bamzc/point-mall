@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login</title>
+</head>
+<body>
+	<label>用户名：</label>
+	<input id="username" type="text" />
+	<br />
+	<label>密&nbsp;&nbsp;码：</label>
+	<input id="password" type="password" />
+	<button onclick="login()">登录</button>
+</body>
+<script type="text/javascript" src="./js/lib/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+	function login() {
+		$.ajax({
+			type : "POST",
+			url : "http://localhost/zmshop-web-point/login.htm",
+			cache : false,
+			data : {
+				'username' : $("#username").val(),
+				'password' : $("#password").val(),
+				'userType' : '3'
+			},
+			success : function(msg) {
+				if ('success' == msg) {
+					window.location.href = 'http://localhost/exchangeShop/index.html';
+					//window.location.href = 'http://localhost/zmshop-web-point/test.htm';
+					//AlertText.tips("d_alert", "提示", "登录成功!");
+				} else if ('error' == msg) {
+					alert("登录失败!");
+					/* $('#imgValidateCode').attr('src', "${ctx}/login/getValidateCode.htm?n=" + Math.random()); */
+				}
+			}
+		});
+	}
+</script>
+</html>

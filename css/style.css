@@ -1,0 +1,255 @@
+.mui-content i{
+    font-style: normal;
+}
+.points-info{
+    width:100%;
+}
+.points-info{
+    background:#fff;
+    height:140px;
+    position:relative;
+}
+.points-info p{
+    
+    text-align:center;
+}
+.points-text{
+    padding-top:9%;
+}
+.user-point{
+    color:#EE7942;
+    padding: 5px 0;
+    font-size: 40px;
+}
+.mui-grid-9 .mui-col-xs-4{
+    width: 50%;
+}
+.mui-table-view.mui-grid-view .mui-table-view-cell .commondity{
+    height: 50px;
+}
+.cy-list .mui-pull-left{
+    padding-left: 0;
+}
+.cy-list .mui-media-object{
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+}
+.cy-list .cy-name{
+    color: #000;
+    font-size: 18px;
+    padding-top: 4px;
+}
+.cy-list .cy-points i{
+    color: #DC143C;
+    font-size: 18px;
+    padding-right: 5px;
+    font-style: normal;
+}
+.cy-list .cy-market i{
+    font-style: normal;
+}
+.points-menu-list{
+    margin-top: 10px;
+}
+.mui-grid-view.points-menu{
+    background: #fff;
+}
+.points-menu .menu .fa-stack{
+    font-size: 14px;
+    margin-right: 5px;
+    color: #EE7942;
+}
+.mui-table-view.points-menu .mui-table-view-cell .mui-media-body.menu{
+    height: 26px;
+}
+.points-menu-list .fa-stack{
+    font-size: 12px;
+    margin-right: 5px;
+    color: #EE7942;
+}
+
+.card .card-header{
+    width: 100%;
+    height: 150px;
+}
+.card .card-header img{
+    width: 100%;
+    height: 150px;
+}
+.card .card-content .card-content-inner{
+    line-height: 16px;
+    padding: 10px 0 0 10px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.card .card-content .card-content-inner .mui-numbox{
+    width: 100px;
+    height: 20px;
+    padding: 0 25px;
+}
+.card .card-content .card-content-inner .mui-numbox button{
+    width: 25px;
+}
+.card .card-content .card-description{
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px solid #eee;
+}
+}
+.card .card-content .card-description-content{
+    background: #fff;
+    padding: 10px 0 0 10px;
+}
+.card-footer{
+    position: fixed;
+    bottom: 50px;
+    z-index: 998;
+    width: 100%;
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.card-footer .price{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    text-align: left;
+    line-height: 24px;
+}
+.card-footer .price strong{
+    color: #DC143C;
+}
+.card-footer a{
+    display: inline-block;
+    width: 40%;    
+    height: 30px;
+    line-height: 0px;
+    margin: 4px 5px 0 0;
+}
+.card .card-content .co-num{
+    margin-top: 10px;
+    border-top: 1px solid #eee;
+    height: 35px;
+}
+.card .card-content .ex-success{
+    text-align: center;
+    padding: 0 10px;
+    height: 200px;
+}
+.card .card-content .ex-success .success-text{
+    padding:50px 0;
+}
+.card .card-content .ex-success a{
+    display: inline-block;
+    width: 40%;
+    height: 20px;
+    line-height: 0;
+}
+
+/*
+ *loading
+ */
+.loading-overlay {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    opacity: 1;
+    background: #fff;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    z-index:10000;
+
+
+.sk-three-bounce {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.sk-three-bounce .sk-child {
+    width: 20px;
+    height: 20px;
+    background-color: salmon;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
+    animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
+}
+
+.sk-three-bounce .sk-bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.sk-three-bounce .sk-bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+}
+
+@-webkit-keyframes sk-three-bounce {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes sk-three-bounce {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.exchange-code .exchan-state{
+    float: right;
+}
+.user-info{
+    text-align: right;
+}
+.user-info p{
+    font-size: 18px;
+    padding: 10px 10px 50px 0;
+}
+.mui-grid-view.mui-grid-9{
+    background: #fff !important;
+}
+.page_404{
+    margin: 186px auto 30px;
+    text-align: center;
+    width:100%
+}
+.page_404 p{
+    margin: 50px 0;
+    font-size: 18px;
+}
+#exchangeQrcode{
+    margin-top: 40%;
+    text-align: center;
+}
+#exchangeQrcode p{
+    margin: 20px 0;
+    font-size: 24px;
+}
+.validate-code{
+    padding-top: 200px;
+}

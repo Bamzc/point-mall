@@ -1,0 +1,11 @@
+{{each list}}
+    <li class="mui-table-view-cell mui-media" data-commodityid="{{$value.commodityid}}">
+		<img class="mui-media-object mui-pull-left" src="{{imgbaseurl}}{{$value.thumbnail}}">
+		<div class="mui-media-body">
+			<p class="cy-name">{{$value.commodityname}}</p>
+			<p class="cy-num">数量：<i>199</i></p>
+			<p class="cy-points-num">总积分：<i>{{consumeintegral}}</i></p>
+			<p class="cy-date">兑换时间：<i>2017-1-1 10:10:10</i></p>
+		</div>
+	</li>
+{{/each}}

@@ -1,0 +1,1 @@
+define(["util"],function(n){return{render:function(){var t=this;n.requestHtml("/exchangeShop/main.html",function(n){$("#pointsMall").html(n),$(document).prop("title","我的店铺"),t.loadDidView()})},loadDidView:function(){}}});

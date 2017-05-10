@@ -1,0 +1,1 @@
+define(["zepto","util"],function(e,t){require;return{render:function(){var i=this;t.requestHtml("/exchangeShop/orderDetail.html",function(t){e("#pointsMall").html(t),e(document).prop("title","订单详情"),i.loadDidView()})},loadDidView:function(){}}});

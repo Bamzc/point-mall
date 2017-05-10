@@ -1,0 +1,1 @@
+define(["util"],function(e){require;return{render:function(){var t=this;e.requestHtml("/exchangeShop/userCenter.html",function(e){$("#pointsMall").html(e),$(document).prop("title","个人中心"),t.loadDidView()})},loadDidView:function(){}}});

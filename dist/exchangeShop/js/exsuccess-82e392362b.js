@@ -1,0 +1,1 @@
+define(["util"],function(e){require;return{render:function(){var t=this;e.requestHtml("/exchangeShop/exsuccess.html",function(e){$("#pointsMall").html(e),$(document).prop("title","兑换商品"),t.loadDidView()})},loadDidView:function(){}}});

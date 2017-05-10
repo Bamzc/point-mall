@@ -1,0 +1,1 @@
+define(["util"],function(e){require;return{render:function(){var i=this;e.requestHtml("/underwriting/exsuccess.html",function(e){$("#pointsMall").html(e),$(document).prop("title","兑换成功"),i.loadDidView()})},loadDidView:function(){}}});
